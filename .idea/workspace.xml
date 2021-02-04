@@ -1,20 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97835e5a-eb34-446a-9470-428e44cf3220" name="Default Changelist" comment="" />
+    <list default="true" id="97835e5a-eb34-446a-9470-428e44cf3220" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/member/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/java/com/ersa/member/MemberApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/java/com/ersa/member/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/java/com/ersa/member/controller/MemberController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/java/com/ersa/member/utils/ApplicationContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/static/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/main/resources/templates/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/member/src/test/java/com/ersa/member/MemberApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ersa/order/OrderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ersa/order/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ersa/order/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/java/com/ersa/order/utils/ApplicationContextUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/main/resources/templates/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order/src/test/java/com/ersa/order/OrderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/config/AuthorizationServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/entity/UserBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/service/MyUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/java/com/ersa/sso/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/oauth_client_details.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/permission.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/bootstrap-4.3.1-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/Pe-icon-7-stroke.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/Pe-icon-7-stroke.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/Pe-icon-7-stroke.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/icomoon/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/assets/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/static/images/dashboard/circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sso/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/registry-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Tag Library Descriptor" />
+        <option value="XSLT Stylesheet" />
+        <option value="spring-beans.schema" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="F:/software/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="F:\software\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.1/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\JetBrains\maven\apache-maven-3.6.1\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -24,12 +174,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1nab5hql1VJLPVMhRsAp7EdocHW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -37,6 +192,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/order/src/main/resources/templates/order" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,9 +203,42 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ersa.order.utils" />
+      <recent name="com.ersa.member.utils" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JetBrains\IdeaProjects\ersa-service-temp\order\src\main\resources\templates\order" />
+      <recent name="D:\JetBrains\IdeaProjects\ersa-service\member\src\main\resources\static\bootstrap" />
+      <recent name="D:\JetBrains\IdeaProjects\ersa-service\sso\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
   </component>
   <component name="RunManager" selected="Spring Boot.SsoApplication">
+    <configuration name="MemberApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="member" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ersa.member.MemberApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ersa.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RegistryServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="registry-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ersa.registryserver.RegistryServerApplication" />
@@ -63,13 +253,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.MemberApplication" />
+      <item itemvalue="Spring Boot.OrderApplication" />
+      <item itemvalue="Spring Boot.RegistryServerApplication" />
+      <item itemvalue="Spring Boot.SsoApplication" />
+    </list>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
+          <option name="contentProportion" value="0.1959607" />
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -88,56 +290,125 @@
       <updated>1611630966777</updated>
       <workItem from="1611630969812" duration="1662000" />
       <workItem from="1611632675040" duration="11671000" />
+      <workItem from="1611885571527" duration="202000" />
+      <workItem from="1611885821835" duration="26310000" />
+      <workItem from="1612141489671" duration="7719000" />
+      <workItem from="1612160982382" duration="5653000" />
+      <workItem from="1612248302260" duration="99000" />
+      <workItem from="1612248416757" duration="12854000" />
+      <workItem from="1612314645667" duration="10955000" />
+      <workItem from="1612401213295" duration="1707000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2409" y="118" key="#Notifications" timestamp="1611885581809">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2409" y="118" key="#Notifications/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611885581809" />
     <state x="552" y="182" key="#Project_Structure" timestamp="1611631547835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="182" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1611631547835" />
-    <state width="1877" height="460" key="GridCell.Tab.0.bottom" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2645" y="170" key="#com.intellij.ide.util.MemberChooser" timestamp="1612249541369">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2645" y="170" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612249541369" />
+    <state x="2551" y="210" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612345504010">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2551" y="210" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612345504010" />
+    <state x="2257" y="298" key="FileChooserDialogImpl" timestamp="1612317053537">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2257" y="298" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612317053537" />
+    <state width="1472" height="286" key="GridCell.Tab.0.bottom" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1472" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state width="1877" height="460" key="GridCell.Tab.0.center" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.0.center" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state width="1877" height="460" key="GridCell.Tab.0.left" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.0.left" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state width="1877" height="460" key="GridCell.Tab.0.right" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.0.right" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state width="1877" height="460" key="GridCell.Tab.1.bottom" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.1.bottom" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state width="1877" height="460" key="GridCell.Tab.1.center" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.1.center" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state width="1877" height="460" key="GridCell.Tab.1.left" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.1.left" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state width="1877" height="460" key="GridCell.Tab.1.right" timestamp="1611743872765">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.1.right" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
     <state width="1877" height="460" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611743872765" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1611632102975">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1472" height="286" key="GridCell.Tab.2.bottom" timestamp="1612346464398">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state width="1472" height="286" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464398" />
+    <state width="1472" height="286" key="GridCell.Tab.2.center" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1472" height="286" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
+    <state width="1472" height="286" key="GridCell.Tab.2.left" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1472" height="286" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
+    <state width="1472" height="286" key="GridCell.Tab.2.right" timestamp="1612346464397">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1472" height="286" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612346464397" />
+    <state x="2383" y="159" key="SettingsEditor" timestamp="1611887983238">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2383" y="159" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611887983238" />
     <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611632102975" />
-    <state x="334" y="224" key="new project wizard" timestamp="1611641724090">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2500" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1612401217474">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
+    <state x="2500" y="305" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612401217474" />
+    <state x="2490" y="77" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1611888074469">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2490" y="77" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611888074469" />
+    <state x="2254" y="224" width="1412" height="691" key="new project wizard" timestamp="1612317274121">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2254" y="224" width="1412" height="691" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612317274121" />
     <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1611641724090" />
+    <state x="2566" y="68" key="refactoring.ChangeSignatureDialog" timestamp="1611888121627">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2566" y="68" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1611888121627" />
+    <state x="2459" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1612258656307">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2459" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1612258656307" />
   </component>
 </project>

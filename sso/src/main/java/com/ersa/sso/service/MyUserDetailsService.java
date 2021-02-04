@@ -1,9 +1,10 @@
 package com.ersa.sso.service;
 
 import com.alibaba.fastjson.JSON;
-import com.ersa.sso.Entity.UserBean;
+import com.ersa.sso.entity.UserBean;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -37,9 +38,9 @@ public class MyUserDetailsService implements UserDetailsService {
             log.warn("用户{}不存在", username);
             throw new UsernameNotFoundException(username);
         }
-        List<SimpleGrantedAuthority> authorityList = new ArrayList<>();
-        authorityList.add(new SimpleGrantedAuthority("User"));
-        User user1 = new User(user.getUsername(), passwordEncoder.encode(user.getPassword()), authorityList);
+
+        User user1 = new User(user.getUsername(), passwordEncoder.encode(user.getPassword())
+                , AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_USER"));
 
         log.info("登录成功！用户：{}", JSON.toJSONString(user1));
         return user1;

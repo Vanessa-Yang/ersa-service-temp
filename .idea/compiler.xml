@@ -2,17 +2,22 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sso" />
         <module name="registry-server" />
+        <module name="member" />
+        <module name="order" />
+        <module name="sso" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="member" options="-parameters" />
+      <module name="order" options="-parameters" />
       <module name="registry-server" options="-parameters" />
       <module name="sso" options="-parameters" />
     </option>

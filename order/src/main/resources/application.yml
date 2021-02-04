@@ -1,1 +1,22 @@
+server:
+  port: 8884
+  servlet:
+    context-path: /orderSystem
+spring:
+  application:
+    name: order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
 
+security:
+  oauth2:
+    client:
+      client-id: OrderManagement
+      client-secret: order123
+      access-token-uri: http://localhost:8882/oauth/token
+      user-authorization-uri: http://localhost:8882/oauth/authorize
+    resource:
+      jwt:
+        key-uri: http://localhost:8882/oauth/token_key

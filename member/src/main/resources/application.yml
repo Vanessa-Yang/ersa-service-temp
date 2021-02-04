@@ -1,1 +1,22 @@
+server:
+  port: 8883
+  servlet:
+    context-path: /memberSystem
+spring:
+  application:
+    name: member
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
 
+security:
+  oauth2:
+    client:
+      client-id: UserManagement
+      client-secret: user123
+      access-token-uri: http://localhost:8882/oauth/token
+      user-authorization-uri: http://localhost:8882/oauth/authorize
+    resource:
+      jwt:
+        key-uri: http://localhost:8882/oauth/token_key

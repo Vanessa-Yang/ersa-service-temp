@@ -1,7 +1,6 @@
 server:
   port: 8882
 
-
 eureka:
   client:
     serviceUrl:
@@ -10,3 +9,16 @@ eureka:
 spring:
   application:
     name: sso
+  datasource:
+    url: jdbc:mysql://localhost:3306/test01?useUnicode=true&charachterEncoding=utf-8&userSSL=true&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+  session:
+    store-type: redis
+  redis:
+    host: 127.0.0.1
+    password:
+    port: 6379

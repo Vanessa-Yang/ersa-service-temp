@@ -1,4 +1,4 @@
-package com.ersa.member.utils;
+package com.ersa.order.utils;
 
 
 import org.springframework.beans.BeansException;
@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @Author Vanessa Yang
  * @Data 2021/1/29 0029 17:17
  */
-@Component
+/*@Component
 public class ApplicationContextUtil implements ApplicationContextAware {
 
     private ApplicationContext applicationContext;
@@ -20,4 +20,4 @@ public class ApplicationContextUtil implements ApplicationContextAware {
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
         this.applicationContext = applicationContext;
     }
-}
+}*/
