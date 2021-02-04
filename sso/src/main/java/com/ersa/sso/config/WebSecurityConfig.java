@@ -36,13 +36,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
-//        http
-//                .formLogin().loginPage("/login")
-//                .and()
-//                .authorizeRequests()
-//                .antMatchers("/oauth/**", "/login", "/logout").permitAll()
-//                .anyRequest().authenticated()
-//                .and().csrf().disable().cors();
         http
                 .formLogin()
                 .loginPage("/login")

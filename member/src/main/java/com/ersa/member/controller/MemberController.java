@@ -26,6 +26,7 @@ public class MemberController {
     @GetMapping("/info")
     @ResponseBody
     public Principal info(Principal principal){
+
         return principal;
     }
 
