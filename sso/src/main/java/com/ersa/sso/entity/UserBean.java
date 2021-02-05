@@ -22,6 +22,9 @@ public class UserBean implements Serializable {
     @Column(name = "id")
     private Integer id;
 
+    @Column(name = "open_id")
+    private String openId;
+
     @Column(name = "username")
     private String username;
 
@@ -30,6 +33,15 @@ public class UserBean implements Serializable {
 
     @Column(name = "nickname")
     private String nickname;
+
+    /**
+     * 性别： 1 女 || 2 男
+     */
+    @Column(name = "sex")
+    private Integer sex;
+
+    @Column(name = "avatar")
+    private String avatar;
 
     @Column(name = "email")
     private String email;

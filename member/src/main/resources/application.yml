@@ -1,3 +1,5 @@
+auth-server: http://localhost:8150
+
 server:
   port: 8883
   servlet:
@@ -16,14 +18,10 @@ security:
     client:
       client-id: UserManagement
       client-secret: user123
-      access-token-uri: http://localhost:8882/oauth/token
-      user-authorization-uri: http://localhost:8882/oauth/authorize
+      access-token-uri: ${auth-server}/oauth/token
+      user-authorization-uri: ${auth-server}/oauth/authorize
     resource:
       jwt:
-        key-uri: http://localhost:8882/oauth/token_key
+        key-uri: ${auth-server}/oauth/token_key
 
-# 微信开放平台 重定向url
-wx:
-  open:
-    app_id: wxed9954c01bb89b47
-    app_secret: a7482517235173ddb4083788de60b90e
+
