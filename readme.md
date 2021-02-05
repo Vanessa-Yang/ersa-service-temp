@@ -22,6 +22,9 @@
   2. oauth2 sso下集成第三方微信授权登录方式有待研究......
  
  备注：
+ 
     1. 认证中心所依赖的mysql表位于ersa-service-temp/sso/resources/..
     
-    2. 微信扫码登录依赖的app_id,app_secret以及redirect_id来源于网上技术大牛在demo中提供并作映射配置后的地址，sso的端口必须改为8150，访问接口也必须与application.yml中的redirect_url完全一致，方可在本地测试成功；
+    2. 微信扫码登录依赖的app_id,app_secret以及redirect_id来源于网上技术大牛在demo中提供并作映射配置后的地址，
+    
+    sso的端口必须改为8150，访问接口也必须与application.yml中的redirect_url完全一致，方可在本地测试成功；
