@@ -1,3 +1,5 @@
+auth-server: http://localhost:8150
+
 server:
   port: 8884
   servlet:
@@ -15,8 +17,8 @@ security:
     client:
       client-id: OrderManagement
       client-secret: order123
-      access-token-uri: http://localhost:8882/oauth/token
-      user-authorization-uri: http://localhost:8882/oauth/authorize
+      access-token-uri: ${auth-server}/oauth/token
+      user-authorization-uri: ${auth-server}/oauth/authorize
     resource:
       jwt:
-        key-uri: http://localhost:8882/oauth/token_key
+        key-uri: ${auth-server}/oauth/token_key
